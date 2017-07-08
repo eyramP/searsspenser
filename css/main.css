@@ -1,0 +1,73 @@
+html,body{
+	color: white;
+	margin: 0;
+	padding: 0;	
+	overflow-x: hidden;
+	position: relative;
+}
+
+#contact-and-social-media{
+	background-color: #FAC11C;
+	color: #22313F;
+	padding: 0 35px;
+}
+
+#contact-and-social-media div span{
+	margin-right: 15px;
+}
+
+
+#menu, nav{
+	background-color:#22313F;
+	color: white;
+}
+
+.navbar-nav{
+	color: white;
+}
+
+.navbar-nav li a{
+	color: white;
+}
+
+#header{
+	padding-bottom: 0;
+}
+
+
+#footer{
+	background-color: #22313F;
+	color: white;
+	position: relative;
+}
+
+
+#footer-main ul li{
+	text-decoration: none;
+	list-style:none;
+	margin: 0;
+	padding: 0;
+}
+
+#soc-div span{
+	padding-right: 20px;
+}
+
+
+#about-us{
+	color: #22313F;
+	background-color: #eee;
+}
+
+#about-us p{
+	text-align: justify;
+}
+
+#products-services{
+	color: white;
+	background-color: #22313F;
+}
+
+#endorsements{
+	color: #22313F;
+}
