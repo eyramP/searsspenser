@@ -8,14 +8,14 @@
         <title>Searsspenser</title>
 
         <!-- Bootstrap -->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/bootstrap-theme.min.css" rel="stylesheet">
         <!-- other css Files-->
-        <link rel="stylesheet" type="text/css" href="css/flat-ui.min.css">
-        <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-        <link rel="stylesheet" type="text/css" href="css/slick.css">
-        <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
-        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="../css/flat-ui.min.css">
+        <link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="../css/slick.css">
+        <link rel="stylesheet" type="text/css" href="../css/slick-theme.css">
+        <link rel="stylesheet" type="text/css" href="../css/main.css">
 
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -51,8 +51,8 @@
                                     <span class="icon-bar"></span>
                                 </button>
                                 <div>
-                                    <a class="navbar-brand" href="index.php" style="color: white; margin-left: 15%">
-                                        <img src="images/logo.png" alt="Searsspenser" class="img-responsive" width="200px;">
+                                    <a class="navbar-brand" href="../index.php" style="color: white; margin-left: 15%">
+                                        <img src="../images/logo.png" alt="Searsspenser" class="img-responsive" width="200px;">
                                     </a>   
                                 </div>
                             </div>
@@ -60,11 +60,11 @@
                             <!-- Collect the nav links, forms, and other content for toggling -->
                             <div class="collapse navbar-collapse navbar-ex1-collapse" style="padding-top: 1%;">
                                 <ul class="nav navbar-nav navbar-right">
-                                    <li><a href="index.php">Home</a></li>
-                                    <li><a href="pages/about.php">About Us</a></li>
+                                    <li><a href="../index.php">Home</a></li>
+                                    <li><a href="../pages/about.php">About Us</a></li>
                                     <li><a href="#">Products</a></li>
                                     <li><a href="#">Services</a></li>
-                                    <li><a href="pages/contact.php">Contact Us</a></li>
+                                    <li><a href="../pages/contact.php">Contact Us</a></li>
                                 </ul>
                             </div><!-- /.navbar-collapse -->
                         </div>

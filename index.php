@@ -1,80 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        
-        <title>Searsspenser</title>
-
-        <!-- Bootstrap -->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/bootstrap-theme.min.css" rel="stylesheet">
-        <!-- other css Files-->
-        <link rel="stylesheet" type="text/css" href="css/flat-ui.min.css">
-        <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-        <link rel="stylesheet" type="text/css" href="css/main.css">
-
-        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-            <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <![endif]-->
-    </head>
-    <body>
-        <div class="container-fluid">
-            <div class="row" id="header">
-                <div id="contact-and-social-media" class="row">
-                    <div class="col-md-6 text-center">
-                        <span style="padding-right: 20px;"><i class="fa fa-phone" aria-hidden="true"></i> + 233 00000 0000</span>
-                        <span><i class="fa fa-envelope" aria-hidden="true"></i> info@searspenser.com</span>
-                    </div>
-                    <div class="col-md-6 text-center">
-                        <span><i class="fa fa-facebook"></i></span>
-                        <span><i class="fa fa-twitter"></i></span>
-                        <span><i class="fa fa-instagram"></i></span>
-                    </div>
-                </div>
-
-                <div id="menu" class="row">
-                    <nav class="navbar" role="navigation">
-                        <div class="container-fluid">
-                            <!-- Brand and toggle get grouped for better mobile display -->
-                            <div class="navbar-header">
-                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                                    <span class="sr-only">Toggle navigation</span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                </button>
-                                <div>
-                                    <a class="navbar-brand" href="#" style="color: white;">
-                                        <img src="images/logo.png" alt="Searsspenser" class="img-responsive" width="130px;">
-                                    </a>   
-                                </div>
-                            </div>
-                    
-                            <!-- Collect the nav links, forms, and other content for toggling -->
-                            <div class="collapse navbar-collapse navbar-ex1-collapse" style="padding-top: 1%;">
-                                <ul class="nav navbar-nav navbar-right">
-                                    <li><a href="#">Home</a></li>
-                                    <li class="dropdown">
-                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us <b class="caret"></b></a>
-                                        <ul class="dropdown-menu">
-                                            <li><a href="#">Board of Directors</a></li>
-                                            <li><a href="#">Managing Partners</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">Products</a></li>
-                                    <li><a href="#">Services</a></li>
-                                    <li><a href="#">Contact Us</a></li>
-                                </ul>
-                            </div><!-- /.navbar-collapse -->
-                        </div>
-                    </nav>
-                </div>
-            </div>
+<?php
+    require 'includes/header.php';
+?>
 
             <div id="slider" class="row">
                 <div id="carousel-id" class="carousel slide" data-ride="carousel">
@@ -107,7 +33,7 @@
                 </div>
             </div>
 
-            <div id="about-us" class="row text-center" style="padding: 0 10%;">
+            <div id="about-us" class="row text-center" style="padding: 0 10%; padding-bottom: 2%;">
                 <h3>What we do</h3>
                 <hr style="border: 1px solid #FAC11C; width: 20%;">
                 <p style="text-align: justify;">
@@ -115,71 +41,53 @@
                     Our company own two mining concessions in a rich and high quality gold geological formation in the country. Headquartered in Tema and with operations in major gold mining belt in Ashanti region. Some of the main gold mining companies operating in this area are AngloGold Ashanti, GoldFields, Kinross Gold, and Newmont.
                     GMC Global is also licensed by PMMC Ghana. Our Gold is refined in Ghana into 24 Carats bars fine purity and traded locally and International to our clients.
                 </p>
+                <p class="btn"><a class="btn btn-lg btn-read-more" href="">Read More</a></p>
             </div>
 
-            <div id="products-services" class="row text-center">
+            <div id="products-services" class="row text-center" style="height: 400px;">
                 <h3>Products & Services</h3>
                 <hr style="border: 1px solid #FAC11C; width: 20%;">
             </div>
 
             <div id="endorsements" class="row text-center">
                 <h3>What Our Customers Say</h3>
-                <hr style="border: 1px solid #FAC11C; width: 20%;">
+                <hr style="border: 1px solid #22313F; width: 20%;">
                 
+                <!-- Customer Endorsement Slider -->
+                <div class="row" style="padding: 0 20%">
+                    <div class="endorsement-slider">
+                        <div class="slider-item img-responsive">
+                            <img src="i" width="120px" style="margin-left: 45%;" class="img-responsive img-circle">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation ullamco
+                            </p>
+                            <span><b>-Customer Name</b></span>
+                        </div>
+
+                        <div class="slider-item img-responsive">
+                            <img src="i" width="120px" style="margin-left: 45%;" class="img-responsive img-circle">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation ullamco
+                            </p>
+                            <span><b>-Customer Name</b></span>
+                        </div>
+
+                        <div class="slider-item img-responsive">
+                            <img src="images/beckham.jpeg" width="100px" height="150px" style="margin-left: 45%;" class="img-responsive img-circle">
+                            <p>
+                                "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation ullamco"
+                            </p>
+                            <span><b>-Customer Name</b></span>
+                        </div>
+                    </div>
+                </div> 
             </div>
-
-
-            <div id="footer" class="row">
-                    <h4 style="color: #FAC11C; margin-left: 3%;">SEARSSPENSER</h4>
-                <div class="row" id="footer-main">
-                    <div class="col-md-offset-1 col-md-3 ">
-                        <ul>
-                        <header>PAGE LINKS</header>
-                            <li>Home</li>
-                            <li>About</li>
-                            <li>Products</li>
-                            <li>Services</li>
-                        </ul>
-                    </div>
-                    <div class="col-md-3">
-                        <ul>
-                        <header>CONTATC DETAILS: </header>
-                            <li>+233 000 0000</li>
-                            <li>info@searsspenser.com</li>
-                            <li>contac@searsspenser.com</li>
-                            <li>facebook.com/searspenser</li>
-                        </ul>
-                    </div>
-                    <div class="col-md-3">
-                        <ADDRESS>
-                        <header>VISIT US: </header>
-                            Tema, Comm 20,<br>
-                            Hse No. 22,<br>
-                            Acrra - Ghana<br>
-                        </ADDRESS>
-                    </div>
-                </div>
-
-                <div class="row" style="color: lightgray; padding: 0 30px; border-top: 1px solid gray;">
-                    <div class="col-md-6 text-center">
-                        <span style="padding-right: 20px;">Copyright&copy;2017, Searsspenser</span>
-                    </div>
-                    <div class="col-md-6 text-center" id="soc-div">
-                        <span><i class="fa fa-facebook"></i></span>
-                        <span><i class="fa fa-twitter"></i></span>
-                        <span><i class="fa fa-instagram"></i></span>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <!-- Include all compiled plugins (below), or include individual files as needed -->
-        <script type="text/javascript" src="js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="js/flat-ui.min.js"></script>
-        <script type="text/javascript" src="js/script.js"></script>
-    </body>
-</html>
+<?php
+    require 'includes/footer.php';
+?>

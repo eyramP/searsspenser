@@ -70,4 +70,31 @@ html,body{
 
 #endorsements{
 	color: #22313F;
+	background-color: #FAC11C;
+}
+
+.btn-read-more{
+	background-color:#FAC11C;
+	color:  #22313F;
+}
+
+-------------------
+-------------------
+contact Page css 
+------------------
+------------------
+
+#contact-form{
+	
+}
+
+#contact-send{
+	margin-bottom: 20px;
+	width: 20%;
+	background-color: #22313F;
+	color: #FAC11C;
+}
+
+.contact-form-input{
+	background-color: #ddd;
 }
